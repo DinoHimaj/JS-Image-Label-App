@@ -13,7 +13,8 @@ This program is an image labeling application built with JavaScript, HTML, and C
 ### JSON File Structure
 
 The JSON file will have the following structure(example with 3 images):
-[
+
+```[
   {
     "id": 1674528576842,
     "coordinates": {
@@ -41,7 +42,7 @@ The JSON file will have the following structure(example with 3 images):
 "bot_right": { "x": 298, "y": 379 }
 }
 }
-]
+]```
 
 This structure is an example of the saved JSON file when labeling 3 images. Each image is represented by an object with a unique ID and its labeled coordinates, including the top left, bottom left, top right, and bottom right points of the license plate.
 
