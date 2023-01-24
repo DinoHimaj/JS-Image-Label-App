@@ -20,9 +20,11 @@ let clickCount = 0;
 let coordinates = {};
 let allCoordinates = [];
 
-alert(
-  "Please click the 'Upload Image button' and choose an image from your local machine."
-);
+setTimeout(() => {
+  alert(
+    "Please click the 'Upload Image button' and choose an image from your local machine."
+  );
+}, 500);
 
 function handleUploadBtn(e) {
   //upload image file from a local machine
