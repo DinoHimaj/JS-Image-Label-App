@@ -14,36 +14,36 @@ This program is an image labeling application built with JavaScript, HTML, and C
 
 The JSON file will have the following structure(example with 3 images):
 
-```json
-[
-  {
-    "id": 1674528576842,
-    "coordinates": {
+  ```json
+  [
+    {
+      "id": 1674528576842,
+      "coordinates": {
+      "top_left": { "x": 219, "y": 315 },
+      "bot_left": { "x": 220, "y": 364 },
+      "top_right": { "x": 297, "y": 327 },
+      "bot_right": { "x": 298, "y": 379 }
+  }
+  },
+    {
+      "id": 1674528599353,
+      "coordinates": {
+      "top_left": { "x": 219, "y": 315 },
+      "bot_left": { "x":220, "y": 364 },
+      "top_right": { "x": 297, "y": 327 },
+      "bot_right": { "x": 298, "y": 379 }
+  }
+  },
+    {
+      "id": 1674528624102,
+      "coordinates": {
       "top_left": { "x": 219, "y": 315 },
       "bot_left": { "x": 220, "y": 364 },
       "top_right": { "x": 297, "y": 327 },
       "bot_right": { "x": 298, "y": 379 }
     }
-  },
-  {
-    "id": 1674528599353,
-    "coordinates": {
-      "top_left": { "x": 219, "y": 315 },
-      "bot_left": { "x":220, "y": 364 },
-"top_right": { "x": 297, "y": 327 },
-"bot_right": { "x": 298, "y": 379 }
-}
-},
-{
-"id": 1674528624102,
-"coordinates": {
-"top_left": { "x": 219, "y": 315 },
-"bot_left": { "x": 220, "y": 364 },
-"top_right": { "x": 297, "y": 327 },
-"bot_right": { "x": 298, "y": 379 }
-}
-}
-]
+  }
+  ]
 ```
 
 This structure is an example of the saved JSON file when labeling 3 images. Each image is represented by an object with a unique ID and its labeled coordinates, including the top left, bottom left, top right, and bottom right points of the license plate.
