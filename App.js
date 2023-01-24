@@ -20,11 +20,9 @@ let clickCount = 0;
 let coordinates = {};
 let allCoordinates = [];
 
-setTimeout(() => {
-  alert(
-    "Please click the 'Upload Image' button and choose a image from your computer that you want to label"
-  );
-}, 500);
+alert(
+  "Please click the 'Upload Image button' and choose an image from your local machine."
+);
 
 function handleUploadBtn(e) {
   //upload image file from a local machine
@@ -90,7 +88,6 @@ function handleCanvas(e) {
       }, 500);
       //change the upload button
       uploadButton.innerHTML = 'Upload Next Image';
-      canvas.style.cursor = 'default';
 
       let imageData = {
         id: Date.now(), // use the current time as the image ID
