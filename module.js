@@ -1,3 +1,11 @@
+//instructions that are shown to user
+const instructions = [
+  'Please click on the TOP LEFT corner of the license plate',
+  'Please click on the BOTTOM LEFT corner of the license plate',
+  'Please click on the TOP RIGHT corner of the license plate',
+  'Please click on the BOTTOM RIGHT corner of the license plate',
+];
+
 //draws uploaded image to a canvas
 function drawImage(image) {
   ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);

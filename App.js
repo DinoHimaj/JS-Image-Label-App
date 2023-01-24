@@ -3,13 +3,6 @@ const saveButton = document.getElementById('save-btn');
 const canvas = document.getElementById('image-canvas');
 const ctx = canvas.getContext('2d');
 
-const instructions = [
-  'Please click on the TOP LEFT corner of the license plate',
-  'Please click on the BOTTOM LEFT corner of the license plate',
-  'Please click on the TOP RIGHT corner of the license plate',
-  'Please click on the BOTTOM RIGHT corner of the license plate',
-];
-
 //event listeners
 uploadButton.addEventListener('click', handleUploadBtn);
 canvas.addEventListener('click', handleCanvas);

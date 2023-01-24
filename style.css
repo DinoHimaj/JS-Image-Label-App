@@ -61,7 +61,7 @@ body {
 
 #alertBox {
   position: fixed;
-  bottom: 75%;
+  bottom: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
