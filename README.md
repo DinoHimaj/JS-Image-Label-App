@@ -56,14 +56,16 @@ Click on the "Save" button to create a JSON file containing the coordinates of t
 If you wish to label another image, click on the "Upload Next Image" button.
 Please note that the program currently does not work in Google Chrome due to a file saving library that is not supported. However, it does work on Mozilla Firefox and MS Edge.
 
-Live Demo
-A live demo of the application can be found here: 
-https://classy-cascaron-194ddf.netlify.app/ (currently not supported in Google Chrome)
+## Live Demo
 
-Future Improvements
-Adding support for Google Chrome
-Improve UI/UX design
-Adding additional features such as multiple label points per image, and labeling other objects beside license plates.
+A live demo of the application can be found [here](https://classy-cascaron-194ddf.netlify.app/ "Image Labeling Application Demo") (currently not supported in Google Chrome).
+
+
+## Future Improvements
+
+- Adding support for Google Chrome
+- Improve UI/UX design
+- Adding additional features such as multiple label points per image, and labeling other objects beside license plates.
 "
 
 
