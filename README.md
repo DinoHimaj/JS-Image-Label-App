@@ -57,7 +57,8 @@ If you wish to label another image, click on the "Upload Next Image" button.
 Please note that the program currently does not work in Google Chrome due to a file saving library that is not supported. However, it does work on Mozilla Firefox and MS Edge.
 
 Live Demo
-A live demo of the application can be found here
+A live demo of the application can be found here: 
+https://classy-cascaron-194ddf.netlify.app/ (currently not supported in Google Chrome)
 
 Future Improvements
 Adding support for Google Chrome
